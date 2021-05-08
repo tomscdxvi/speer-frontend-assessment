@@ -1,0 +1,135 @@
+:root
+{
+    @font-face {
+        font-family: 'adobe-clean';
+        src: 
+            url('fonts/AdobeClean-Light.eot');
+        src: 
+            local('AdobeClean-Light') 
+            url('fonts/AdobeClean-Light.ttf')
+            format('truetype');
+
+    }
+}
+
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.load
+{
+    animation: slide 20s;
+}
+
+.slider
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 30s infinite;
+}
+
+.content
+{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.principal
+{
+    top: 20%;
+    right: 35%;
+    letter-spacing: 5px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+    .principal h1
+    {
+        font-family: adobe-clean, sans-serif;
+        font-size: 35px;
+        font-weight: 100;
+        margin-bottom: 20px;
+    }
+
+.dot-wrap
+{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 2.5%;
+}
+
+.dot 
+{
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.prev, 
+.next 
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+.next 
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+ 
+.prev:hover, .next:hover 
+{
+    background-color: rgba(0,0,0,0.8);
+}
+
+@keyframes slide 
+{
+    0%{background-image: url(../images/alessioferretti-image.jpg);}
+    50%{background-image: url(../images/miguelcarraca-image.jpg);}
+    100%{background-image: url(../images/seanyalda-image.jpg);}
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }

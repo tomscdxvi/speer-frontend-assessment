@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Speer Front-End Assessment</title>
+
+        <script src="js/menu-ani.js" defer></script>
+        <script src="js/menu.js" defer></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/pricebtn.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/nav-menu.css">
+
+        
+
+    </head>
+
+    <body>
+        <div class="slider">
+            <div class="dot-wrap" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+
+            <div class="load">
+            </div>
+            
+            <div class="content">
+                <div class="principal">
+                    <h1>EXP|CON</h1>
+                </div>
+            </div>
+
+                <a class="hamBtn" data="hamburger-menu" onclick="toggleMenu();">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Perks</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+           
+    </body>
+</html>

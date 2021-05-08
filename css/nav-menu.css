@@ -1,0 +1,47 @@
+.menu 
+{
+    height: 100%; 
+    width: 50%; 
+    position: fixed; 
+    z-index: -1; 
+    top: 0; 
+    left: 50%;
+    background-color: #1c1e1f6e; 
+    overflow-x: hidden; 
+    padding-top: 25%;
+    
+}
+  
+  /* The navigation menu links */
+.menu a 
+{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.menu a:hover 
+{
+    color: #f1f1f1;
+}
+
+.menu ul
+{
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.menu ul li
+{
+    list-style: none;
+    display:inline;
+}
+
+.menu.toggleClass
+{
+    z-index: 1;
+}
