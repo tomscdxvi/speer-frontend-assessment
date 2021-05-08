@@ -8,10 +8,11 @@
     letter-spacing: 4px;
     overflow: hidden;
     position: absolute;
-    margin-top: 25%;
+    margin-top: 30%;
     margin-left: 46%;
     text-transform: uppercase;
     -webkit-tap-highlight-color: transparent;
+    transition: 500ms ease-in-out;
 }
 
 [class*=btn-]::after, 
@@ -38,10 +39,11 @@
     overflow: hidden;
     position: absolute;
     padding: 2em 3em;
-    margin-top: 25%;
+    margin-top: 30%;
     margin-left: 46%;
     text-transform: uppercase;
     -webkit-tap-highlight-color: transparent;
+    transition: 500ms ease-in-out;
 }
 
     [class*=btn-]::after, 

@@ -1,8 +1,8 @@
 .hamBtn 
 {
-    position: absolute;
+    position: fixed;
     top: 6.8%;
-    left: 4%;
+    left: 4.5%;
     margin-left: -22px;
     margin-top: -22px;
     width: 44px;
@@ -39,6 +39,69 @@
 {
   background-color: red;
 }
+
+.nav 
+{
+    top: 10%;
+    left: 3.5%;
+    padding: 0;
+    margin: 0;
+    transition: 0.3 ease;
+    display: none;
+    position: fixed;
+    z-index: 2;
+}
+
+    .nav li{
+        font-family: adobe-clean, sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        list-style: none;
+        padding-top: 5%;
+    }
+
+    .nav li a
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nav li a:hover
+    {
+        color: rgb(34, 33, 33)
+    }
+
+.nav .nav-1
+{
+    color: red;
+}
+
+.change
+{
+    display: block;
+}
+
+.menu-wrap
+{
+    right: 90%;
+    bottom: 75%;
+    position: fixed;
+    background:black;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    
+}
+
+.change-menu
+{
+    z-index: 1;
+    width: 500px;
+    height: 500px;
+    transform: translate(25%, 0);
+}
+
+
+
 
 
 

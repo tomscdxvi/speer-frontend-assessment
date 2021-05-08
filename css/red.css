@@ -1,0 +1,40 @@
+:root
+{
+
+    --clr-text-100: #FFF;
+    --clr-accent-400: rgb(67, 73, 73);
+
+    @font-face {
+        font-family: 'adobe-clean';
+        src: 
+            url('fonts/AdobeClean-Light.eot');
+        src: 
+            local('AdobeClean-Light') 
+            url('fonts/AdobeClean-Light.ttf')
+            format('truetype');
+
+    }
+}
+
+#red
+{
+    height: 100vh;
+    background-color: #D34848;
+}
+
+.red-content
+{
+    padding-top: 25%;
+}
+    
+    .red-content h1
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-bottom: 5%;
+        font-size: 80px;
+        letter-spacing: 0.5rem;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        color: var(--clr-text-100);
+    }

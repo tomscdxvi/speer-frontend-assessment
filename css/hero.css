@@ -25,6 +25,10 @@
     padding: 0;
 }
 
+#hero
+{
+    height: 100vh;
+}
 .load
 {
     animation: slide 20s;
@@ -48,21 +52,40 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+h2,
+ul li
+{
+    text-transform: uppercase;
+}
+
 .title
 {
     top: 5%;
     right: 40%;
     letter-spacing: 5px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     text-align: center;
     z-index: 2;
 } 
 
     .content h1
     {
+        font-family: adobe-clean, sans-serif;
         margin-top: 20%;
-        letter-spacing: 5px;
+        font-size: 80px;
+        letter-spacing: 0.5rem;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+    }
+
+    .content p
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-top: 26%;
+        font-size: 30px;
+        letter-spacing: 0.rem;
         width: 100%;
         position: absolute;
         text-align: center;
@@ -74,6 +97,8 @@
         font-size: 25px;
         font-weight: 100;
         margin-bottom: 20px;
+        position: sticky;
+        top: 0.25rem;
     }
 
     .title a
