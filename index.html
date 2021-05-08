@@ -25,42 +25,60 @@
     </head>
 
     <body>
-        <div class="slider">
-            <div class="dot-wrap" style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
-            </div>
+        <section id="hero">
+            <div class="slider">
 
-            <div class="load">
-            </div>
-            
-            <div class="content">
-                <div class="principal">
-                    <h1>EXP|CON</h1>
-                </div>
-            </div>
-
-                <a class="hamBtn" data="hamburger-menu" onclick="toggleMenu();">
-                    <b></b>
-                    <b></b>
-                    <b></b>
-                </a>
-
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Perks</a></li>
-                        <li><a href="#">Reviews</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+                <div class="dot-wrap" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
                 </div>
 
-        </div>
+                <div class="load"></div>
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <div class="content">
+                    <div class="title">
+                        <a href="index.html"><h2 id="title">EXP|CON</h2></a>
+                    </div>
+                    <h1>Interactive Concert Experience</h1>
+                    <a href="#" class="btn-mix-noborder" data-text="Try It Now">Try It Now</a>
+                </div>
+                    <div class="menu">
+                        <a class="hamBtn" data="hamburger-menu" onclick="toggleMenu();">
+                            <b id="bar1"></b>
+                            <b id="bar2"></b>
+                            <b id="bar3"></b>
+                        </a> 
+
+                    
+                        <ul class="nav" id="nav">
+                            <li><a href="#" class="nav-1">WHAT IS IT</a></li>
+                            <li><a href="#">PERKS</a></li>
+                            <li><a href="#">PRICING</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-wrap" id="menu-wrap"></div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </section>
+
+        <section id="red">
+
+        </section>
+
+        <section id="yellow">
+
+        </section>
            
+        <section id="perks">
+
+        </section>
+
+        <section id="reviews">
+
+        </section>
+
+        <section id=""
     </body>
 </html>

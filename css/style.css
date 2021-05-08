@@ -1,5 +1,9 @@
 :root
 {
+
+    --clr-text-100: #FFF;
+    --clr-accent-400: rgb(67, 73, 73);
+
     @font-face {
         font-family: 'adobe-clean';
         src: 
@@ -44,22 +48,59 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.principal
+.title
 {
-    top: 20%;
-    right: 35%;
+    top: 5%;
+    right: 40%;
     letter-spacing: 5px;
     width: 100%;
     position: absolute;
     text-align: center;
-}
-    .principal h1
+    z-index: 2;
+} 
+
+    .content h1
+    {
+        margin-top: 20%;
+        letter-spacing: 5px;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+    }
+
+    .title h2
     {
         font-family: adobe-clean, sans-serif;
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 100;
         margin-bottom: 20px;
     }
+
+    .title a
+    {
+        text-decoration: none;
+        color: var(--clr-text-100);
+    }
+        
+        .title a:link
+        {
+            text-decoration: none;
+        }
+
+        .title a:active
+        {
+            text-decoration: none;
+        }
+
+        .title a:hover 
+        {
+            color: var(--clr-accent-400);
+        }
+
+            .change-title
+            {
+                color: red;
+            }
 
 .dot-wrap
 {

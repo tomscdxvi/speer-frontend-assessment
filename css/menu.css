@@ -1,17 +1,17 @@
-/* Hamburger Menu */
 .hamBtn 
 {
     position: absolute;
-    top: 30%;
-    left: 14.65%;
+    top: 6.8%;
+    left: 4%;
     margin-left: -22px;
     margin-top: -22px;
     width: 44px;
     height: 33px;
     cursor: pointer;
+    z-index: 2;
   }
 
-  .hamBtn b 
+  .hamBtn b
   {
     position: absolute;
     left: 0;
@@ -34,4 +34,12 @@
   {
     top: 100%;
   }
+
+.change b
+{
+  background-color: red;
+}
+
+
+
  

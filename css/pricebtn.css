@@ -1,18 +1,17 @@
+
 [class*=btn-] 
 {
     outline: 0;
-    border-radius: 50px;
     font-size: 0.8em;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     letter-spacing: 4px;
     overflow: hidden;
     position: absolute;
-    padding: 2em 3em;
-    margin: 4em;
+    margin-top: 25%;
+    margin-left: 46%;
     text-transform: uppercase;
     -webkit-tap-highlight-color: transparent;
-    transition: all 500ms ease-in-out;
 }
 
 [class*=btn-]::after, 
@@ -39,10 +38,10 @@
     overflow: hidden;
     position: absolute;
     padding: 2em 3em;
-    margin: 4em;
+    margin-top: 25%;
+    margin-left: 46%;
     text-transform: uppercase;
     -webkit-tap-highlight-color: transparent;
-    transition: all 500ms ease-in-out;
 }
 
     [class*=btn-]::after, 

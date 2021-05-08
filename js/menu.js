@@ -24,3 +24,4 @@ hamBtn.click(function()
         Bar1.velocity("reverse", {delay: 800});
     }
 });
+
