@@ -10,6 +10,10 @@
 
         <script src="js/menu-ani.js" defer></script>
         <script src="js/menu.js" defer></script>
+        <script src="js/menu-color-change.js" defer></script>
+        <script src="js/btn.js" defer></script>
+
+        <script src="js/red-cursor.js" defer></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
@@ -21,6 +25,11 @@
         <link rel="stylesheet" href="css/nav-menu.css">
 
         <link rel="stylesheet" href="css/red.css">
+        <link rel="stylesheet" href="css/btn.css">
+
+        <link rel="stylesheet" href="css/yellow.css">
+
+        <link rel="stylesheet" href="/css/perks.css">
 
         
 
@@ -29,7 +38,6 @@
     <body>
         <section id="hero">
             <div class="slider">
-
                 <div class="dot-wrap" style="text-align:center">
                     <span class="dot" onclick="currentSlide(1)"></span> 
                     <span class="dot" onclick="currentSlide(2)"></span> 
@@ -43,12 +51,12 @@
                     <p>Experience your favourite artists like never before and from the comfort of your own home.</p>
                     <a href="#" class="btn-mix-noborder" data-text="Try It Now">Try It Now</a>
                 </div>
-                        <div class="menu">
+                        <div class="menu menu_white">
   
                             <div class="title">
-                                <a href="index.html"><h2 id="title">exp|con</h2></a>
+                                <a href="#hero" class="menu"><h2 id="title">exp|con</h2></a>
                             </div>
-                            
+
                             <a class="hamBtn" data="hamburger-menu" onclick="toggleMenu();">
                                 <b id="bar1"></b>
                                 <b id="bar2"></b>
@@ -57,9 +65,9 @@
 
                         
                             <ul class="nav" id="nav">
-                                <li><a href="#" class="nav-1">what is it</a></li>
-                                <li><a href="#">perks</a></li>
-                                <li><a href="#">pricing</a></li>
+                                <li><a href="#hero" class="nav-1 menu">what is it</a></li>
+                                <li><a href="#red" class="menu">perks</a></li>
+                                <li><a href="#yellow" class="menu">pricing</a></li>
                             </ul>
                         </div>
                         <div class="menu-wrap" id="menu-wrap"></div> 
@@ -70,19 +78,63 @@
 
         <section id="red">
             <div class="red">
+                <div class="button1-wrap">
+                    <button class="button1">
+                        <span>Try It Now</span>
+                    </button>
+                </div>    
                 <div class="red-content">
                     <h1>Superior Sound</h1>
-                    <p>Experience live versions of your favourite songs</p>
+                    <p>Experience live versions of your favourite songs.</p>
                 </div>
+                <button class="button2">
+                    <span>See Demo</span>
+                </button>
             </div>
         </section>
 
         <section id="yellow">
-
+            <div class="yellow">
+                <div class="button3-wrap">
+                    <button class="button1">
+                        <span>Try It Now</span>
+                    </button>
+                </div>    
+                <div class="yellow-content">
+                    <h1>Front Row Seats</h1>
+                    <p>Experience concerts up close and personal.</p>
+                </div>
+                <button class="button4">
+                    <span>See Demo</span>
+                </button>
+            </div>
         </section>
            
         <section id="perks">
+            <div class="perk">
 
+                <div class="button3-wrap">
+                    <button class="button1">
+                        <span>Try It Now</span>
+                    </button>
+                </div>    
+
+                <div class="perks-content">
+
+                    <h1>Perks</h1>
+                        <hr class="perk-1-hr">
+                            <h2 class="perk-1">Subscription Payment Model</h2>
+                                <p class="terms-1">No Commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+
+                        <hr class="perk-2-hr">
+                            <h2 class="perk-2">No Free Cancellation Policy</h2>
+                                <p class="terms-2">No Commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+
+                        <hr class="perk-3-hr">
+                            <h2 class="perk-3">Subscription Payment Model</h2>
+                                <p class="terms-3">No Commitment, cancel anytime. Never worry about forgetting a payment again!</p> 
+                </div>
+            </div>
         </section>
 
         <section id="reviews">

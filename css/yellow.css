@@ -5,7 +5,7 @@
     --clr-accent-400: rgb(67, 73, 73);
 
     @font-face 
-    {
+    {s
         font-family: 'adobe-clean';
         src: 
             url('fonts/AdobeClean-Light.eot');
@@ -16,17 +16,17 @@
     }
 }
 
-#red
+#yellow
 {
     height: 100vh;
-    background-color: #D34848;
+    background-color: #FFB33F;
 }
 
-    .red-content h1
+    .yellow-content h1
     {
         font-family: adobe-clean, sans-serif;
-        margin-top: 20%;
-        margin-left: 8%;
+        margin-top: 10%;
+        margin-left: 45%;
         font-size: 80px;
         letter-spacing: 0.5rem;
         position: absolute;
@@ -35,13 +35,14 @@
         text-transform: uppercase;
     }
 
-    .red-content p
+    .yellow-content p
     {
         font-family: adobe-clean, sans-serif;
-        margin-top: 26%;
-        margin-left: 8%;
+        margin-top: 15%;
+        margin-left: 45%;
         font-size: 30px;
         letter-spacing: 0.5rem;
         position: absolute;
         text-align: center;
+        
     }
