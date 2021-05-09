@@ -1,0 +1,111 @@
+:root
+{
+
+    --clr-text-100: #FFF;
+    --clr-perk1-300: #D34848;
+    --clr-perk2-700: #1FDEE6;
+    --clr-perk3-300: #FFB33F;
+    --clr-accent-400: rgb(67, 73, 73);
+
+    @font-face 
+    {s
+        font-family: 'adobe-clean';
+        src: 
+            url('fonts/AdobeClean-Light.eot');
+        src: 
+            local('AdobeClean-Light') 
+            url('fonts/AdobeClean-Light.ttf')
+            format('truetype');
+    }
+}
+
+#reviews
+{
+    height: 100vh;
+    background-color: var(--clr-perk2-700);
+}
+
+    .reviews-content h1
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-top: 10%;
+        margin-left: 31.5%;
+        font-size: 68px;
+        letter-spacing: 0.5rem;
+        position: absolute;
+        text-align: center;
+        color: var(--clr-text-100);
+        text-transform: uppercase;
+    }
+
+    .reviews-content .artist
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-top: 22%;
+        margin-left: 31.5%;
+        font-size: 30px;
+        letter-spacing: 0.5rem;
+        color: var(--clr-text-100);
+        position: absolute;
+        text-align: center;
+    }
+    
+    .reviews-content .artist-content
+    {
+        font-family: adobe-clean, sans-serif;
+        width: 20ch;
+        margin-top: 25%;
+        margin-left: 31.5%;
+        font-size: 30px;
+        letter-spacing: 0.5rem;
+        position: absolute;
+        text-align: left;
+    }
+
+    .reviews-content .producer
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-top: 22%;
+        margin-left: 54%;
+        font-size: 30px;
+        letter-spacing: 0.5rem;
+        color: var(--clr-text-100);
+        position: absolute;
+        text-align: center;
+    }
+    
+    .reviews-content .producer-content
+    {
+        font-family: adobe-clean, sans-serif;
+        width: 20ch;
+        margin-top: 25%;
+        margin-left: 54%;
+        font-size: 30px;
+        letter-spacing: 0.5rem;
+        position: absolute;
+        text-align: left;
+    }
+
+    .reviews-content .music-fan
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-top: 22%;
+        margin-left: 76%;
+        font-size: 30px;
+        letter-spacing: 0.5rem;
+        color: var(--clr-text-100);
+        position: absolute;
+        text-align: center;
+    }
+    
+    .reviews-content .music-fan-content
+    {
+        font-family: adobe-clean, sans-serif;
+        width: 20ch;
+        margin-top: 25%;
+        margin-left: 76%;
+        font-size: 30px;
+        letter-spacing: 0.5rem;
+        position: absolute;
+        text-align: left;
+    }

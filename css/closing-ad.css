@@ -2,6 +2,7 @@
 {
 
     --clr-text-100: #FFF;
+    --clr-perks-800: #191919;
     --clr-perk1-300: #D34848;
     --clr-perk2-700: #1FDEE6;
     --clr-perk3-300: #FFB33F;
@@ -19,33 +20,39 @@
     }
 }
 
-#yellow
+#closing-ad
 {
-    height: 100vh;
-    background-color: var(--clr-perk3-300);
+    height: 80vh;
+    background-color: #191919;
 }
 
-    .yellow-content h1
+    .closing-ad-content h1
     {
         font-family: adobe-clean, sans-serif;
-        margin-top: 10%;
-        margin-left: 45%;
-        font-size: 80px;
+        margin-top: 18%;
+        margin-left: 8%;
+        font-size: 64px;
+        letter-spacing: 0.5rem;
+        position: absolute;
+        text-align: center;
+        color: var(--clr-perk1-300);
+        text-transform: uppercase;
+    }
+
+    .closing-ad-content h2
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-top: 24%;
+        margin-left: 8%;
+        font-size: 32px;
         letter-spacing: 0.5rem;
         position: absolute;
         text-align: center;
         color: var(--clr-text-100);
         text-transform: uppercase;
     }
+    
+    
 
-    .yellow-content p
-    {
-        font-family: adobe-clean, sans-serif;
-        margin-top: 15%;
-        margin-left: 45%;
-        font-size: 30px;
-        letter-spacing: 0.5rem;
-        position: absolute;
-        text-align: center;
-        
-    }
+
+    

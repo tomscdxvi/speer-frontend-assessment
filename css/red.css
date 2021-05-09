@@ -2,10 +2,13 @@
 {
 
     --clr-text-100: #FFF;
+    --clr-perk1-300: #D34848;
+    --clr-perk2-700: #1FDEE6;
+    --clr-perk3-300: #FFB33F;
     --clr-accent-400: rgb(67, 73, 73);
 
     @font-face 
-    {
+    {s
         font-family: 'adobe-clean';
         src: 
             url('fonts/AdobeClean-Light.eot');
@@ -19,7 +22,7 @@
 #red
 {
     height: 100vh;
-    background-color: #D34848;
+    background-color: var(--clr-perk1-300);
 }
 
     .red-content h1

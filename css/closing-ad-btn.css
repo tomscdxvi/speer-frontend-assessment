@@ -1,5 +1,5 @@
 
-[class*=btn-1] 
+[class*=btn-2] 
 {
     outline: 0;
     font-size: 0.8em;
@@ -8,27 +8,27 @@
     letter-spacing: 4px;
     overflow: hidden;
     position: absolute;
-    margin-top: 30%;
-    margin-left: 46%;
+    margin-bottom: 20%;
+    margin-left: 70%;
     text-transform: uppercase;
     -webkit-tap-highlight-color: transparent;
     transition: 500ms ease-in-out;
 }
 
-[class*=btn-1]::after, 
-[class*=btn-1]::before 
+[class*=btn-2]::after, 
+[class*=btn-2]::before 
 {
     content: "";
     position: absolute;
 }
 
-[class*=btn-1]:hover, 
-[class*=btn-1]:focus 
+[class*=btn-2]:hover, 
+[class*=btn-2]:focus 
 {
     background: rgba(255, 255, 255, 0.8);
 }
 
-[class*=btn-1] 
+[class*=btn-2] 
 {
     outline: 0;
     border-radius: 50px;
@@ -38,34 +38,34 @@
     letter-spacing: 4px;
     overflow: hidden;
     position: absolute;
-    padding: 2em 3em;
-    margin-top: 30%;
-    margin-left: 46%;
+    padding: 4em 6em;
+    margin-top: 20%;
+    margin-left: 70%;
     text-transform: uppercase;
     -webkit-tap-highlight-color: transparent;
     transition: 500ms ease-in-out;
 }
 
-    [class*=btn-1]::after, 
-    [class*=btn-1]::before 
+    [class*=btn-2]::after, 
+    [class*=btn-2]::before 
     {
         content: "";
         position: absolute;
     }
 
-    [class*=btn-1]:hover, 
-    [class*=btn-1]:focus 
+    [class*=btn-2]:hover, 
+    [class*=btn-2]:focus 
     {
         background: rgba(255, 255, 255, 0.8);
     }
 
-[class*=btn-1-mix]::after 
+[class*=btn-2-mix]::after 
 {
     background: #222;
     border-radius: 120px;
     content: attr(data-text);
     color: #fff;
-    padding: 1.6em 2.5em;
+    padding: 3.6em 5.5em;
     top: 0.4em;
     left: 0.5em;
     -moz-user-select: none;
@@ -74,7 +74,7 @@
         user-select: none;
 }
 
-[class*=btn-1-mix]::before 
+[class*=btn-2-mix]::before 
 {
     background: transparent;
     border-radius: 100%;
@@ -87,19 +87,19 @@
     animation: mix 5s linear infinite;
 }
 
-@-webkit-keyframes mix 
+@-webkit-keyframes mix6
 {
-    30% {box-shadow: 0 -1em 2em 3em rgba(255, 0, 200, 0.5), 4em -1em 2em 3em rgba(255, 50, 0, 0.8), -4em 2em 3em 2em rgba(155, 200, 0, 0.5), -4em -2em 2em 2em rgba(200, 0, 150, 0.6), 0 3em 2em 2em rgba(20, 250, 0, 0.5), 2em 1em 2em 2em rgba(50, 10, 250, 0.5);}
-    60% {box-shadow: 2em 1em 2em 3em rgba(55, 0, 200, 0.5), 3em 1em 2em 3em rgba(25, 150, 0, 0.6), 3em -2em 3em 3em rgba(155, 200, 0, 0.5), -4em 2em 2em 3em rgba(200, 0, 50, 0.6), 0 -3em 2em 3em rgba(200, 250, 0, 0.5), -2em 1em 2em 3em rgba(50, 210, 250, 0.6);}
+    30% {box-shadow: 0 -1em 2em 6em rgba(255, 0, 200, 0.5), 4em -1em 2em 6em rgba(255, 50, 0, 0.8), -4em 2em 3em 4em rgba(155, 200, 0, 0.5), -4em -2em 2em 4em rgba(200, 0, 150, 0.6), 0 3em 2em 4em rgba(20, 250, 0, 0.5), 2em 1em 2em 4em rgba(50, 10, 250, 0.5);}
+    60% {box-shadow: 2em 1em 2em 6em rgba(55, 0, 200, 0.5), 3em 1em 2em 6em rgba(25, 150, 0, 0.6), 3em -2em 3em 6em rgba(155, 200, 0, 0.5), -4em 2em 2em 6em rgba(200, 0, 50, 0.6), 0 -3em 4em 6em rgba(200, 250, 0, 0.5), -2em 1em 2em 6em rgba(50, 210, 250, 0.6);}
 }
 
 @keyframes mix 
 {
-    30% {box-shadow: 0 -1em 2em 3em rgba(255, 0, 200, 0.5), 4em -1em 2em 3em rgba(255, 50, 0, 0.8), -4em 2em 3em 2em rgba(155, 200, 0, 0.5), -4em -2em 2em 2em rgba(200, 0, 150, 0.6), 0 3em 2em 2em rgba(20, 250, 0, 0.5), 2em 1em 2em 2em rgba(50, 10, 250, 0.5);}
-    60% {box-shadow: 2em 1em 2em 3em rgba(55, 0, 200, 0.5), 3em 1em 2em 3em rgba(25, 150, 0, 0.6), 3em -2em 3em 3em rgba(155, 200, 0, 0.5), -4em 2em 2em 3em rgba(200, 0, 50, 0.6), 0 -3em 2em 3em rgba(200, 250, 0, 0.5), -2em 1em 2em 3em rgba(50, 210, 250, 0.6);}
+    30% {box-shadow: 0 -1em 2em 6em rgba(255, 0, 200, 0.5), 4em -1em 2em 6em rgba(255, 50, 0, 0.8), -4em 2em 3em 4em rgba(155, 200, 0, 0.5), -4em -2em 2em 4em rgba(200, 0, 150, 0.6), 0 3em 2em 4em rgba(20, 250, 0, 0.5), 2em 1em 2em 4em rgba(50, 10, 250, 0.5);}
+    60% {box-shadow: 2em 1em 2em 6em rgba(55, 0, 200, 0.5), 3em 1em 2em 6em rgba(25, 150, 0, 0.6), 3em -2em 3em 6em rgba(155, 200, 0, 0.5), -4em 2em 2em 6em rgba(200, 0, 50, 0.6), 0 -3em 2em 6em rgba(200, 250, 0, 0.5), -2em 1em 2em 6em rgba(50, 210, 250, 0.6);}
 }
 
-.btn-1-mix-noborder::after 
+.btn-2-mix-noborder::after 
 {
     background: transparent !important;
     color: #222 !important;
