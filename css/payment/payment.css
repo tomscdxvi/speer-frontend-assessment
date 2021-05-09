@@ -1,0 +1,123 @@
+:root
+{
+
+    --clr-text-100: #FFF;
+    --clr-perks-800: #191919;
+    --clr-perk1-300: #D34848;
+    --clr-perk2-700: #1FDEE6;
+    --clr-perk3-300: #FFB33F;
+    --clr-accent-400: rgb(67, 73, 73);
+
+    @font-face 
+    {
+        font-family: 'adobe-clean';
+        src: 
+            url('fonts/AdobeClean-Light.eot');
+        src: 
+            local('AdobeClean-Light') 
+            url('fonts/AdobeClean-Light.ttf')
+            format('truetype');
+    }
+}
+
+#payment
+{
+    height: 100vh;
+    background-color: var(--clr-text-100);
+}
+
+    #payment .payment-title
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-top: 10%;
+        margin-left: 8%;
+        font-size: 36px;
+        letter-spacing: 0.5rem;
+        position: absolute;
+        text-align: center;
+        color: var(--clr-perks-800);
+        text-transform: uppercase;
+    }
+
+    #payment .perk-select
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-top: 15%;
+        margin-left: 8%;
+        font-size: 20px;
+        letter-spacing: 0.5rem;
+        position: absolute;
+        text-align: center;
+        color: var(--clr-perks-800);
+        text-transform: uppercase;
+    }
+
+    #payment .perk-wrap
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-top: 17%;
+        margin-left: 5%;
+        font-size: 12px;
+        width: 25%;
+        letter-spacing: 0.5rem;
+        position: absolute;
+        text-align: center;
+        color: var(--clr-perks-800);
+        text-transform: uppercase;
+    }
+    
+        label[for="basic"]
+        {
+            color: var(--clr-perk1-300);
+        }
+
+        label[for="advanced"]
+        {
+            color: var(--clr-perk3-300);
+        }
+
+        label[for="pro"]
+        {
+            color: var(--clr-perk2-700);
+        }
+
+    #payment .billing-info
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-top: 22%;
+        margin-left: 8%;
+        font-size: 20px;
+        letter-spacing: 0.5rem;
+        position: absolute;
+        text-align: center;
+        color: var(--clr-perks-800);
+        text-transform: uppercase;
+    }
+
+    #payment .credit-info
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-top: 22%;
+        margin-left: 47.8%;
+        font-size: 20px;
+        letter-spacing: 0.5rem;
+        position: absolute;
+        text-align: center;
+        color: var(--clr-perks-800);
+        text-transform: uppercase;
+    }
+
+    #payment .conditions-1
+    {
+        position: absolute;
+        width: 44ch;
+        top: 85%;
+        left: 10%;
+        font-family: 'adobe-clean', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 0.1rem;
+        color: var(--clr-perks-800);
+    }
+
+    

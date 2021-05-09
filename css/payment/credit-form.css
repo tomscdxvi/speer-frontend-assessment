@@ -1,0 +1,124 @@
+
+label[for="c-name"]
+{
+    font-family: 'adobe-clean', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    color: var(--clr-perks-800);
+}
+
+input[id="c-name"] 
+{
+    display: block;
+    width: 35%;
+    height: 2.5rem;
+    margin-left: 0.45%;
+    margin-top: 0.2%;
+    font-family: 'adobe-clean', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    color: var(--clr-perks-800);
+    box-sizing: border-box;
+    padding-left: 0.5%;
+}
+
+label[for="c-number"]
+{
+    font-family: 'adobe-clean', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    color: var(--clr-perks-800);
+}
+
+input[id="c-number"] 
+{
+    display: block;
+    width: 35%;
+    height: 2.5rem;
+    margin-left: 0.45%;
+    margin-top: 0.2%;
+    font-family: 'adobe-clean', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    color: var(--clr-perks-800);
+    box-sizing: border-box;
+    padding-left: 0.5%;
+}
+
+.month-year-wrap
+{
+    display: flex;
+}
+
+.month-year-label-wrap
+{
+    display: flex;
+    margin-top: 0.5%;
+    font-family: 'adobe-clean', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    color: var(--clr-perks-800);
+}
+
+label[for="e-month"]
+{
+    font-family: 'adobe-clean', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    color: var(--clr-perks-800);
+    display: flex;
+    width: 17%;
+}
+
+input[id="e-month"]
+{
+    width: 17%;
+    margin-top: -0.2%;
+}
+
+label[for="e-year"]
+{
+    font-family: 'adobe-clean', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    color: var(--clr-perks-800);
+    display: flex;
+    width: 17%;
+}
+
+input[id="e-year"]
+{
+    width: 17%;
+    margin-top: -0.2%;
+}
+
+label[for="cvv"]
+{
+    font-family: 'adobe-clean', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    color: var(--clr-perks-800);
+    margin-top: 0.3rem;
+    display: flex;
+
+}
+
+input[id="cvv"]
+{
+    margin-top: -0.45rem;
+    position: absolute;
+}
+
+
+
+
+
+

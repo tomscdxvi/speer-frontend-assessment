@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Speer Front-End Assessment</title>
+
+        <script src="js/menu-ani.js" defer></script>
+        <script src="js/menu.js" defer></script>
+        <script src="js/menu-color-change.js" defer></script>
+        <script src="js/btn.js" defer></script>
+        <script src="js/textfield-highlight.js" defer></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+
+        <link rel="stylesheet" href="/css/payment/hero2.css">
+        <link rel="stylesheet" href="/css/payment/menu2.css">
+
+        <link rel="stylesheet" href="/css/payment/payment.css">
+        <link rel="stylesheet" href="/css/payment/footer3.css">
+        <link rel="stylesheet" href="/css/payment/payment-form.css">
+        <link rel="stylesheet" href="/css/payment/credit-form.css">
+        <link rel="stylesheet" href="/css/payment/pay-btn.css">
+
+
+    </head>
+
+    <body>
+
+        <div class="menu">
+            <div class="title">
+                <a href="index.html" class="menu"><h2 id="title">exp|con</h2></a>
+            </div>
+
+            <a class="hamBtn" data="hamburger-menu" onclick="toggleMenu();">
+                <b id="bar1"></b>
+                <b id="bar2"></b>
+                <b id="bar3"></b>
+            </a> 
+
+        
+            <ul class="nav" id="nav">
+                <li><a href="#" class="nav-1 menu">what is it</a></li>
+                <li><a href="index.html" class="menu">perks</a></li>
+                <li><a href="pricing.html" class="menu">pricing</a></li>
+            </ul>
+        </div>
+        <div class="menu-wrap" id="menu-wrap"></div> 
+
+        <section id="payment">
+
+                <h1 class="payment-title">Payment</h1>
+                <h2 class="perk-select">1. Select your plan </h2>
+
+                <div class="perk-wrap">
+                        <input type="radio" id="basic" name="perk" value="basic">
+                    <label for="basic">Basic</label>
+                        <input type="radio" id="advanced" name="perk" value="advanced">
+                    <label for="advanced">Advanced</label>
+                        <input type="radio" id="pro" name="perk" value="pro">
+                    <label for="pro">Pro</label>
+                </div>
+
+                <h2 class="billing-info">2. Billing Information</h2>
+
+                <h2 class="credit-info">3. Credit Card Information</h2>
+
+                    <div class="form-wrap1">
+                        <form name="bill-form" action="#" method="get">
+
+                            <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" onclick="updateBorderName();" > 
+
+
+                            <label for="email">Billing Address</label>
+                                <input type="text" id="bill-address" name="bill-address" onclick="updateBorderBill();">
+
+                            <div class="city-post-label-wrap">
+                                <label for="city">City</label>
+                                <label for="post-code">Postal Code</label>
+                            </div>
+
+                            <div class="city-post-wrap">
+
+                                    <input type="text" id="city" name="city" onclick="updateBorderCity();">
+
+                                    <input type="text" id="post-code" name="post-code" onclick="updateBorderPost();">
+                            </div>
+
+                            <div class="country-wrap">
+                                <label for="countries">Country</label>
+                                    <select id="countries">
+                                        <option value="Canada">Canada</option>
+                                        <option value="United State of America">United States of America</option>
+                                    </select>
+                            </div>
+                        </form>
+                    </div>   
+
+                    <div class="form-wrap2">
+                        <form name="credit-form" action="#" method="get">
+
+                            <label for="c-name">Cardholder's Name</label>
+                                <input type="text" id="c-name" name="c-name" onclick="updateBorderCName();"> 
+
+
+                            <label for="c-number">Card Number</label>
+                                <input type="text" id="c-number" name="c-number" onclick="updateBorderCNumber();">
+
+                            <div class="month-year-label-wrap">
+                                <label for="e-month">Expiry Month</label>
+                                <label for="e-year">Expiry Year</label>
+                            </div>
+
+                            <div class="month-year-wrap">
+
+                                    <input type="text" id="e-month" name="e-month" onclick="updateBorderEMonth();">
+
+                                    <input type="text" id="e-year" name="e-year" onclick="updateBorderEYear();">
+                            </div>
+
+                            <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" name="cvv" onclick="updateBorderCVV();" > 
+                            
+                        </form>
+                    </div>
+
+                    <p class="conditions-1">By continuing, I acknowledge that I've read and agree to the <a href="#">Terms of Service & Privacy Policy</a></p> 
+                    <a href="pricing.html" class="btn-3-mix-noborder" data-text="Download">Download</a>
+        </section>
+
+        <section id="footer2">
+            <img src="images/email-icon.png" class="email-icon2">
+            <h3 class="contact-email2">support@experienceconcerts.co</h3>
+            <h2 class="closing-title2">Exp|Con</h2>
+            <p class="footer-content2">2019 &copy; All Rights Reserved | Speer Technologies Incorporated</p>
+        </section>
+    </body>
+</html>

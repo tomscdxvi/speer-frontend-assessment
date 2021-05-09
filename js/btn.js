@@ -87,28 +87,3 @@ document.querySelector('.pricing-btn-3').onmousemove = function(e)
 	e.target.style.setProperty('--x', x + 'px');
 	e.target.style.setProperty('--y', y + 'px');
 };
-
-document.getElementById("button1").onclick = function() 
-{
-        location.href = "pricing.html";
-};
-
-document.getElementById("button2").onclick = function() 
-{
-        location.href = "pricing.html";
-};
-
-document.getElementById("button3").onclick = function() 
-{
-        location.href = "pricing.html";
-};
-
-document.getElementById("button4").onclick = function() 
-{
-        location.href = "pricing.html";
-};
-
-document.getElementById("button5").onclick = function() 
-{
-        location.href = "pricing.html";
-};

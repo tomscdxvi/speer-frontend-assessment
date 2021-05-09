@@ -103,7 +103,7 @@ ul li
         margin-bottom: 20px;
         position: sticky;
         top: 0.25rem;
-        color: white;
+        color: var(--clr-text-100);
     }
     
         .title h2:hover 
