@@ -20,7 +20,7 @@
     }
 }
 
-.pricing-btn-1 {
+.button1 {
     position: absolute;
     top: 82%;
     left: 7.5%;
@@ -38,11 +38,11 @@
     border-radius: 100px;
     text-transform: uppercase;
   }
-  .pricing-btn-1 span {
+  .button1 span {
     position: relative;
     pointer-events: none;
   }
-  .pricing-btn-1::before {
+  .button1::before {
     --size: 0;
     content: '';
     position: absolute;
@@ -55,11 +55,11 @@
             transform: translate(-50%, -50%);
     transition: width .2s ease, height .2s ease;
   }
-  .pricing-btn-1:hover::before {
+  .button1:hover::before {
     --size: 400px;
   }
 
-.pricing-btn-2 
+.button2 
 {
     position: absolute;
     top: 82%;
@@ -78,11 +78,11 @@
     border-radius: 100px;
     text-transform: uppercase;
 }
-  .pricing-btn-2 span {
+  .button2 span {
     position: relative;
     pointer-events: none;
   }
-  .pricing-btn-2::before {
+  .button2::before {
     --size: 0;
     content: '';
     position: absolute;
@@ -90,16 +90,16 @@
     top: var(--y);
     width: var(--size);
     height: var(--size);
-    background: radial-gradient(circle closest-side, #b5d166, transparent);
+    background: radial-gradient(circle closest-side, #2b8fbd, transparent);
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     transition: width .2s ease, height .2s ease;
   }
-  .pricing-btn-2:hover::before {
+  .button2:hover::before {
     --size: 400px;
   }
 
-.pricing-btn-3 
+.button3 
 {
   position: absolute;
   top: 82%;
@@ -118,11 +118,11 @@
   border-radius: 100px;
   text-transform: uppercase;
 }
-  .pricing-btn-3 span {
+  .button3 span {
     position: relative;
     pointer-events: none;
   }
-  .pricing-btn-3::before {
+  .button3::before {
     --size: 0;
     content: '';
     position: absolute;
@@ -135,6 +135,6 @@
             transform: translate(-50%, -50%);
     transition: width .2s ease, height .2s ease;
   }
-  .pricing-btn-3:hover::before {
+  .button3:hover::before {
     --size: 400px;
   }
