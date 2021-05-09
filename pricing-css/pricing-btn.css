@@ -1,0 +1,140 @@
+:root
+{
+
+    --clr-text-100: #FFF;
+    --clr-perks-800: #191919;
+    --clr-perk1-300: #D34848;
+    --clr-perk2-700: #1FDEE6;
+    --clr-perk3-300: #FFB33F;
+    --clr-accent-400: rgb(67, 73, 73);
+
+    @font-face 
+    {
+        font-family: 'adobe-clean';
+        src: 
+            url('fonts/AdobeClean-Light.eot');
+        src: 
+            local('AdobeClean-Light') 
+            url('fonts/AdobeClean-Light.ttf')
+            format('truetype');
+    }
+}
+
+.pricing-btn-1 {
+    position: absolute;
+    top: 82%;
+    left: 7.5%;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: var(--clr-perk1-300);
+    padding: 1em 2em;
+    border: none;
+    color: var(--clr-text-100);
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+    text-transform: uppercase;
+  }
+  .pricing-btn-1 span {
+    position: relative;
+    pointer-events: none;
+  }
+  .pricing-btn-1::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #645394, transparent);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  .pricing-btn-1:hover::before {
+    --size: 400px;
+  }
+
+.pricing-btn-2 
+{
+    position: absolute;
+    top: 82%;
+    left: 32.5%;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+            appearance: none;
+    background: var(--clr-perk3-300);
+    padding: 1em 2em;
+    border: none;
+    color: var(--clr-text-100);
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
+  .pricing-btn-2 span {
+    position: relative;
+    pointer-events: none;
+  }
+  .pricing-btn-2::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #b5d166, transparent);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  .pricing-btn-2:hover::before {
+    --size: 400px;
+  }
+
+.pricing-btn-3 
+{
+  position: absolute;
+  top: 82%;
+  left: 60.5%;
+  -webkit-appearance: none;
+      -moz-appearance: none;
+          appearance: none;
+  background: var(--clr-perk2-700);
+  padding: 1em 2em;
+  border: none;
+  color: var(--clr-text-100);
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+  .pricing-btn-3 span {
+    position: relative;
+    pointer-events: none;
+  }
+  .pricing-btn-3::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #b5d166, transparent);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  .pricing-btn-3:hover::before {
+    --size: 400px;
+  }

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Speer Front-End Assessment</title>
+
+        <script src="js/menu-ani.js" defer></script>
+        <script src="js/menu.js" defer></script>
+        <script src="js/menu-color-change.js" defer></script>
+        <script src="js/btn.js" defer></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+
+        <link rel="stylesheet" href="/css/hero.css">
+        <link rel="stylesheet" href="/css/menu.css">
+
+        <link rel="stylesheet" href="/pricing-css/pricing-main.css">
+        <link rel="stylesheet" href="/pricing-css/pricing.css">
+        <link rel="stylesheet" href="/pricing-css/perks2.css">
+        <link rel="stylesheet" href="/pricing-css/footer2.css">
+        <link rel="stylesheet" href="/pricing-css/pricing-btn.css">
+
+    </head>
+
+    <body>
+
+        <div class="menu">
+            <div class="title">
+                <a href="index.html" class="menu"><h2 id="title">exp|con</h2></a>
+            </div>
+
+            <a class="hamBtn" data="hamburger-menu" onclick="toggleMenu();">
+                <b id="bar1"></b>
+                <b id="bar2"></b>
+                <b id="bar3"></b>
+            </a> 
+
+        
+            <ul class="nav" id="nav">
+                <li><a href="#index.html" class="nav-1 menu">what is it</a></li>
+                <li><a href="#perks2" class="menu">perks</a></li>
+                <li><a href="pricing.html" class="menu">pricing</a></li>
+            </ul>
+        </div>
+        <div class="menu-wrap" id="menu-wrap"></div> 
+
+        <section id="pricing">
+            <div class="pricing">
+
+                <div class="pricing-content">
+
+                    <h1 class="pricing-title">Pricing</h1>
+                    <p class="pricing-desc">Test out our app today! Choose from three subscription based payment models.</p>
+
+                        <h2 class="pkg-1">Basic</h2>
+                            <hr class="pkg-1-hr">
+                        <h2 class="pkg-1-2">Monthly</h2>
+                        
+                            <p class="pkg-terms-1">&#10003; Very Good</p>
+                            <p class="pkg-terms-1-2">&#10003; Amazing</p>
+                            <p class="pkg-terms-1-3">&#10003; Perfect Job</p>
+                            <p class="pkg-terms-1-4">&#10003; Love this</p>
+                            <p class="pkg-terms-1-5">&#10003; It's so good</p>
+                            <p class="pkg-terms-1-6">&#10003; Features</p>
+
+                            <button id="pricing-btn-1" class="pricing-btn-1">
+                                <span>Select</span>
+                            </button>
+
+                        <h2 class="pkg-2">Advanced</h2>    
+                            <hr class="pkg-2-hr">
+                        <h2 class="pkg-2-2">Yearly</h2>
+                            <p class="pkg-terms-2">&#10003; Very very Good</p>
+                            <p class="pkg-terms-2-2">&#10003; Even Amazing</p>
+                            <p class="pkg-terms-2-3">&#10003; Perfect Job</p>
+                            <p class="pkg-terms-2-4">&#10003; Love this more</p>
+                            <p class="pkg-terms-2-5">&#10003; It's so so good</p>
+                            <p class="pkg-terms-2-6">&#10003; More Features</p>
+
+                            <button id="pricing-btn-2" class="pricing-btn-2">
+                                <span>Select</span>
+                            </button>
+
+                        <h2 class="pkg-3">Pro</h2>
+                            <hr class="pkg-3-hr">
+                        <h2 class="pkg-3-2">Yearly</h2>
+                        <p class="pkg-terms-3">&#10003; Very very Good</p>
+                        <p class="pkg-terms-3-2">&#10003; Even Amazing</p>
+                        <p class="pkg-terms-3-3">&#10003; Perfect Job</p>
+                        <p class="pkg-terms-3-4">&#10003; Love this more</p>
+                        <p class="pkg-terms-3-5">&#10003; It's so so good</p>
+                        <p class="pkg-terms-3-6">&#10003; More Features</p>
+
+                        <button id="pricing-btn-1" class="pricing-btn-3">
+                            <span>Select</span>
+                        </button>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="perks2">
+            <div class="perks2">
+
+                <div class="perks2-content">
+
+                    <h1>Perks</h1>
+                        <hr class="perk2-1-hr">
+                            <h2 class="perk-1-2">Subscription Payment Model</h2>
+                                <p class="terms-1-2">No Commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+
+                        <hr class="perk2-2-hr">
+                            <h2 class="perk-2-2">No Free Cancellation Policy</h2>
+                                <p class="terms-2-2">No Commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+
+                        <hr class="perk2-3-hr">
+                            <h2 class="perk-3-2">Subscription Payment Model</h2>
+                                <p class="terms-3-2">No Commitment, cancel anytime. Never worry about forgetting a payment again!</p> 
+                </div>
+            </div>
+        </section>
+
+
+        <section id="footer2">
+            <img src="images/email-icon.png" class="email-icon2">
+            <h3 class="contact-email2">support@experienceconcerts.co</h3>
+            <h2 class="closing-title2">Exp|Con</h2>
+            <p class="footer-content2">2019 &copy; All Rights Reserved | Speer Technologies Incorporated</p>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,407 @@
+:root
+{
+
+    --clr-text-100: #FFF;
+    --clr-perks-800: #191919;
+    --clr-perk1-300: #D34848;
+    --clr-perk2-700: #1FDEE6;
+    --clr-perk3-300: #FFB33F;
+    --clr-accent-400: rgb(67, 73, 73);
+
+    @font-face 
+    {
+        font-family: 'adobe-clean';
+        src: 
+            url('fonts/AdobeClean-Light.eot');
+        src: 
+            local('AdobeClean-Light') 
+            url('fonts/AdobeClean-Light.ttf')
+            format('truetype');
+    }
+}
+
+#pricing
+{
+    height: 100vh;
+    background-color: #191919;
+}
+
+    .pricing-content .pricing-title
+    {
+        font-family: adobe-clean, sans-serif;
+        margin-top: 10%;
+        margin-left: 8%;
+        font-size: 48px;
+        letter-spacing: 0.5rem;
+        position: absolute;
+        text-align: center;
+        color: var(--clr-text-100);
+        text-transform: uppercase;
+    }
+
+    .pricing-content .pricing-desc
+    {
+        font-family: adobe-clean, sans-serif;
+        width: 100ch;
+        margin-top: 13.5%;
+        margin-left: 8%;
+        font-size: 24px;
+        letter-spacing: 0.5rem;
+        position: absolute;
+        text-align: left;
+        color: var(--clr-text-100);
+        text-transform: uppercase;
+    }
+
+        .pricing-content .pkg-1
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 4ch;
+                margin-top: 21.5%;
+                margin-left: 8%;
+                font-size: 32px;
+                letter-spacing: 0.5rem;
+                position: absolute;
+                text-align: left;
+                color: var(--clr-perk1-300);
+                text-transform: uppercase;
+            }
+        
+        .pricing-content .pkg-1-hr 
+        {
+            position: absolute;
+            height: 2px;
+            width: 8%;
+            top: 45%;
+            left: 8%;
+            border-color: var(--clr-perk1-300);
+        }
+
+        .pricing-content .pkg-1-2
+        {
+            font-family: adobe-clean, sans-serif;
+            width: 4ch;
+            margin-top: 24.5%;
+            margin-left: 8%;
+            font-size: 32px;
+            letter-spacing: 0.5rem;
+            position: absolute;
+            text-align: left;
+            color: var(--clr-perk1-300);
+            text-transform: uppercase;
+        }
+
+            .pricing-content .pkg-terms-1
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 30%;
+                margin-left: 8%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-1-2
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 32%;
+                margin-left: 8%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-1-3
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 34%;
+                margin-left: 8%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-1-4
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 36%;
+                margin-left: 8%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-1-5
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 38%;
+                margin-left: 8%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-1-6
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 40%;
+                margin-left: 8%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+        .pricing-content .pkg-2
+        {
+            font-family: adobe-clean, sans-serif;
+            width: 4ch;
+            margin-top: 21.5%;
+            margin-left: 32%;
+            font-size: 32px;
+            letter-spacing: 0.5rem;
+            position: absolute;
+            text-align: left;
+            color: var(--clr-perk3-300);
+            text-transform: uppercase;
+        }
+    
+        .pricing-content .pkg-2-hr 
+        {
+            position: absolute;
+            height: 2px;
+            width: 8%;
+            top: 45%;
+            left: 32%;
+            border-color: var(--clr-perk3-300);
+        }
+
+        .pricing-content .pkg-2-2
+        {
+            font-family: adobe-clean, sans-serif;
+            width: 4ch;
+            margin-top: 24.5%;
+            margin-left: 32%;
+            font-size: 32px;
+            letter-spacing: 0.5rem;
+            position: absolute;
+            text-align: left;
+            color: var(--clr-perk3-300);
+            text-transform: uppercase;
+        }
+
+            .pricing-content .pkg-terms-2
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 30%;
+                margin-left: 32%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-2-2
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 32%;
+                margin-left: 32%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-2-3
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 34%;
+                margin-left: 32%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-2-4
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 36%;
+                margin-left: 32%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-2-5
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 38%;
+                margin-left: 32%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-2-6
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 40%;
+                margin-left: 32%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+        .pricing-content .pkg-3
+        {
+            font-family: adobe-clean, sans-serif;
+            width: 4ch;
+            margin-top: 21.5%;
+            margin-left: 60%;
+            font-size: 32px;
+            letter-spacing: 0.5rem;
+            position: absolute;
+            text-align: left;
+            color: var(--clr-perk2-700);
+            text-transform: uppercase;
+        }
+    
+        .pricing-content .pkg-3-hr 
+        {
+            position: absolute;
+            height: 2px;
+            width: 8%;
+            top: 45%;
+            left: 60%;
+            border-color: var(--clr-perk2-700);
+        }
+
+        .pricing-content .pkg-3-2
+        {
+            font-family: adobe-clean, sans-serif;
+            width: 4ch;
+            margin-top: 24.5%;
+            margin-left: 60%;
+            font-size: 32px;
+            letter-spacing: 0.5rem;
+            position: absolute;
+            text-align: left;
+            color: var(--clr-perk2-700);
+            text-transform: uppercase;
+        }
+
+            .pricing-content .pkg-terms-3
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 30%;
+                margin-left: 60%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-3-2
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 32%;
+                margin-left: 60%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-3-3
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 34%;
+                margin-left: 60%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-3-4
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 36%;
+                margin-left: 60%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-3-5
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 38%;
+                margin-left: 60%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .pricing-content .pkg-terms-3-6
+            {
+                font-family: adobe-clean, sans-serif;
+                width: 20ch;
+                margin-top: 40%;
+                margin-left: 60%;
+                font-size: 22px;
+                color: var(--clr-text-100);
+                letter-spacing: 0.1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+ 
+
+
+    

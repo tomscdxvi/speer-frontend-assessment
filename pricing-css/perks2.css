@@ -9,7 +9,7 @@
     --clr-accent-400: rgb(67, 73, 73);
 
     @font-face 
-    {s
+    {
         font-family: 'adobe-clean';
         src: 
             url('fonts/AdobeClean-Light.eot');
@@ -20,13 +20,14 @@
     }
 }
 
-#perks
+#perks2
 {
-    height: 100vh;
-    background-color: var(--clr-perks-800);
+    height: 80vh;
+    background-color: var(--clr-perk1-300);
+    
 }
 
-    .perks-content h1
+    .perks2-content h1
     {
         font-family: adobe-clean, sans-serif;
         margin-top: 10%;
@@ -39,17 +40,17 @@
         text-transform: uppercase;
     }
     
-    .perk-1-hr 
+    .perk2-1-hr
     {
         position: absolute;
         height: 2px;
         width: 8%;
-        top: 345%;
+        top: 136%;
         left: 8%;
-        border-color: var(--clr-perk1-300);
+        border-color: var(--clr-text-100);
     }
 
-        .perks-content .perk-1
+        .perks2-content .perk-1-2
         {
             font-family: adobe-clean, sans-serif;
             width: 4ch;
@@ -59,34 +60,34 @@
             letter-spacing: 0.5rem;
             position: absolute;
             text-align: left;
-            color: var(--clr-perk1-300);
+            color: var(--clr-text-100);
             text-transform: uppercase;
         }
 
-            .perks-content .terms-1
+            .perks2-content .terms-1-2
             {
                 font-family: adobe-clean, sans-serif;
                 width: 22ch;
                 margin-top: 30%;
                 margin-left: 8%;
                 font-size: 30px;
-                color: var(--clr-text-100);
+                color: var(--clr-perks-800);
                 letter-spacing: 0.1rem;
                 position: absolute;
                 text-align: left;
             }
 
-    .perk-2-hr 
+    .perk2-2-hr
     {
         position: absolute;
         height: 2px;
         width: 8%;
-        top: 345%;
+        top: 136%;
         left: 35%;
-        border-color: var(--clr-perk2-700);
+        border-color: var(--clr-text-100);
     }
 
-        .perks-content .perk-2
+        .perks2-content .perk-2-2
         {
             font-family: adobe-clean, sans-serif;
             width: 20ch;
@@ -96,35 +97,35 @@
             letter-spacing: 0.5rem;
             position: absolute;
             text-align: left;
-            color: var(--clr-perk2-700);
+            color: var(--clr-text-100);
             text-transform: uppercase;
         }
 
-            .perks-content .terms-2
+            .perks2-content .terms-2-2
             {
                 font-family: adobe-clean, sans-serif;
-                width: 22ch;
+                width: 20ch;
                 margin-top: 30%;
                 margin-left: 35%;
                 font-size: 30px;
-                color: var(--clr-text-100);
+                color: var(--clr-perks-800);
                 letter-spacing: 0.1rem;
                 position: absolute;
                 text-align: left;
             }
 
             
-    .perk-3-hr 
+    .perk2-3-hr
     {
         position: absolute;
         height: 2px;
         width: 8%;
-        top: 345%;
+        top: 136%;
         left: 64%;
-        border-color: var(--clr-perk3-300);
+        border-color: var(--clr-text-100);
     }
 
-        .perks-content .perk-3
+        .perks2-content .perk-3-2
         {
             font-family: adobe-clean, sans-serif;
             width: 6ch;
@@ -134,18 +135,18 @@
             letter-spacing: 0.5rem;
             position: absolute;
             text-align: left;
-            color: var(--clr-perk3-300);
+            color: var(--clr-text-100);
             text-transform: uppercase;
         }
 
-            .perks-content .terms-3
+            .perks2-content .terms-3-2
             {
                 font-family: adobe-clean, sans-serif;
-                width: 22ch;
+                width: 20ch;
                 margin-top: 30%;
                 margin-left: 64%;
                 font-size: 30px;
-                color: var(--clr-text-100);
+                color: var(--clr-perks-800);
                 letter-spacing: 0.1rem;
                 position: absolute;
                 text-align: left;

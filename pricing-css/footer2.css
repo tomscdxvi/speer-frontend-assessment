@@ -1,0 +1,72 @@
+:root
+{
+
+    --clr-text-100: #FFF;
+    --clr-perks-800: #191919;
+    --clr-perk1-300: #D34848;
+    --clr-perk2-700: #1FDEE6;
+    --clr-perk3-300: #FFB33F;
+    --clr-footer-800: #5E33D1;
+    --clr-accent-400: rgb(67, 73, 73);
+
+    @font-face 
+    {s
+        font-family: 'adobe-clean';
+        src: 
+            url('fonts/AdobeClean-Light.eot');
+        src: 
+            local('AdobeClean-Light') 
+            url('fonts/AdobeClean-Light.ttf')
+            format('truetype');
+    }
+}
+
+#footer2
+{
+    background-color:  var(--clr-footer-800);
+    position: relative;
+    height: 250px;
+}
+
+    #footer2 .closing-title2
+    {
+        font-family: adobe-clean, sans-serif;
+        font-size: 26px;
+        letter-spacing: 0.5rem;
+        padding-top: 6.5%;
+        padding-bottom: 1rem;
+        text-align: center;
+        color: var(--clr-text-100);
+    }
+
+    #footer2 .contact-email2 
+    {
+        font-family: adobe-clean, sans-serif;
+        font-size: 12px;
+        top: 34%;
+        left: 15%;
+        letter-spacing: 0.1rem;
+        position: absolute;
+        text-align: left;
+        color: var(--clr-text-100);
+        text-transform: uppercase;
+    }
+
+    #footer2 .footer-content2
+    {
+        font-family: adobe-clean, sans-serif;
+        font-size: 12px;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        color: var(--clr-text-100);
+        text-transform: uppercase;
+    }
+
+.email-icon2
+{
+    position: absolute;
+    top: 32%;
+    left: 12.5%;
+}
+
+    

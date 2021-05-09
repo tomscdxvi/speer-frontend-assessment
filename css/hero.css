@@ -25,6 +25,11 @@
     padding: 0;
 }
 
+a 
+{
+    text-decoration: none;
+}
+
 #hero
 {
     height: 100vh;
